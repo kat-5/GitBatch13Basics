@@ -1,0 +1,60 @@
+**************git class 05**************
+Note:
+u can not push a loacal repository to a remote if their commit history are not same
+------------cloning a git repository-----------
+the cloning
+how to clone:
+1. git clone url   =-> where url is the any repo that u want to clone
+..git clone is going to clone the whole remote repo, and will also automatically establish the link
+..remember you can not push to a remote repo if you are not authorized to push in it.
+Head--> main represents the current commit that you hvae in ur working directory
+origin -->main  represents the point uptil which your remtoe and local are synchronised
+----------------------------------------------------------------------
+git fetch--> it tells u if there is any update on github that needs to be updated to your local repo.
+git pull--> it is going to dowanlod the all updates that are there on github.
+if there is no update the output of git fetch is goign to be empty...
+---------------------Branches----------------------------
+
+The Group project:
+To develop the solar System
+
+Requirements:
+Hire one person and immediately get the basic structure of solar system ready and deploy it.
+1. create a project-----> done
+2.write the code---->
+3.create a local repo
+4.commit the code to local repo
+5.create a remote repo
+6. push the code to remote repo
+
+requirements:
+Hire a new person ,please immedaitely start working on the feature SUN of the solar system and after testing it please deploy it in main branch.
+1.clone the project--> done
+2.create a new branch from the main--> done
+3.develop the feature SUN in your own branch
+4.commit to the local repo
+5.create a remote branch of his own and push the code in his own branch
+
+Imp:
+git branch --> list out all the branches and the * represents your current branch
+git branch branchName  -> creates a new branch with the name that u specified
+once u hvae worked on your branch
+made the commits
+and u want to update github
+
+use:
+git push -u origin branchName the first time to create that branch and update it .
+As feature SUN has some issues that we want to resolve
+so :
+1.create a new issue branch
+2. resolve the error
+3.merge it to feature sun
+
+Important:
+Never switch a branch wthout commititng all the changes that you have made on it.
+Always merge the branch back to the branch from which you  branched out.
+
+IN ORDER TO PERFORM A MERGE:
+follow the steps:
+1.Switch to the parent branch
+2. use the command "git merge childBranch"
